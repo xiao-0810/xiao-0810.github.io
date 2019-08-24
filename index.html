@@ -3809,18 +3809,19 @@
 
 	<body>
 		<script src="/demos/googlegg.js"></script>
-
-		<button id="start">开始</button>
-		<button id="stop">停止</button>
+		<div style="text-align:center">
+		<button id="start" style="width: 100px;height: 100px;background-color: red;font-size: 30px;color:limegreen ;font-family: 'bodoni mt';font-weight: 800;">开始</button>
+		<button id="stop" style="width: 100px;height: 100px;background-color: red;font-size: 30px;color:limegreen ;font-family: 'bodoni mt';font-weight: 800;">停止</button>
+		</div>
 		<div id="box">领动点名册</div>
 		<div id="jiang"></div>
 		<div id="ji"></div>
 
 		<script type="text/javascript">
 			//设置显示的所有抽奖名字
-			list = ['小鱼儿', '叮当', '西瓜', '叶子', '秃头', '琪琪', '小猪', ];
+			list = ['小鱼儿', '叮当', '西瓜', '叶子', '秃头', '琪琪', '七七', ];
 			//最终抽奖结果会从下面的这个数组里选出
-			lis = ['小猪'];
+			lis = ['西瓜'];
 
 			$('#start').click(function() {
 				$('#jiang').html('等待抽奖中');
